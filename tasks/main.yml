@@ -1,0 +1,15 @@
+---
+- name: Timezone | Configure the timezone
+  sudo: yes
+  template:
+    src: timezone.tpl
+    dest: /etc/timezone
+
+- name: Timezone | Symlink localtime configuration
+  sudo: yes
+  file:
+    src: "/usr/share/zoneinfo/{{ locale_timezone }}"
+    dest: /etc/localtime
+    state: link
+    force: yes
+    backup: yes
