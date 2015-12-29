@@ -1,6 +1,6 @@
 Timezone (Ansidev)
 =========
-[![Build Status](https://travis-ci.org/Ilyes512/ansible-role-timezone.svg)](https://travis-ci.org/Ilyes512/ansible-role-locale)
+[![Build Status](https://travis-ci.org/Ilyes512/ansible-role-timezone.svg)](https://travis-ci.org/Ilyes512/ansible-role-timezone)
 
 This role configure's the systems timezone for Ubuntu Trusty (14.04).
 
