@@ -2,7 +2,7 @@
 - name: Timezone | Configure the timezone
   sudo: yes
   template:
-    src: timezone.tpl
+    src: timezone.j2
     dest: /etc/timezone
 
 - name: Timezone | Symlink localtime configuration
