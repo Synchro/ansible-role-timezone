@@ -1,12 +1,12 @@
 ---
-- name: Timezone | Configure the timezone
-  sudo: yes
+- name: Configure the timezone
+  become: yes
   template:
     src: timezone.j2
     dest: /etc/timezone
 
-- name: Timezone | Symlink localtime configuration
-  sudo: yes
+- name: Symlink localtime configuration
+  become: yes
   file:
     src: "/usr/share/zoneinfo/{{ locale_timezone }}"
     dest: /etc/localtime
