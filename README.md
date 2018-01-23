@@ -12,7 +12,7 @@ No requirements.
 Role Variables
 --------------
 
-[TODO]
+`locale_timezone`. Set it to the [IANA time zone name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), such as `Europe/Amsterdam` or `Etc/UTC` (the default).
 
 Dependencies
 ------------
