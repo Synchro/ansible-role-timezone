@@ -12,7 +12,13 @@ No requirements.
 Role Variables
 --------------
 
-`locale_timezone`. Set it to the [IANA time zone name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), such as `Europe/Amsterdam` or `Etc/UTC` (the default).
+`locale_timezone: Etc/UTC`
+
+Set it to the [IANA time zone name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), for example:
+* `Etc/UTC` (the default).
+* `Europe/Amsterdam`
+* `America/Montreal`
+* `Etc/GMT-4`
 
 Dependencies
 ------------
